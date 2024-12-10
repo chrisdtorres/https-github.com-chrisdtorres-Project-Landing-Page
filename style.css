@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 1920px;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    
+    background-color: transparent;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.8s ease;
+}
+
+header li a:hover {
+    font-size: 18px;
+}
+
+.hero {
+    z-index: 1;
+    height: 600px;
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.left-info {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.row-one {
+    width: 800px;
+}
+
+.main-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text {
+    color: white;
+    width: 500px;
+    font-size: 16px;
+}
+
+.button-row {
+    width: 800px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px;
+    transition: 0.8s ease;
+}
+
+.sign-up:hover {
+    background-color: #003d9e;
+}
+
+.right-image {
+    background-color: #3882F6;
+    color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.section-two-bottom {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+
+.sub-heading {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-two-column-one {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.section-two-column-two {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.section-two-column-three {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.section-two-column-four {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.small-images {
+    background-color: #3882F6;
+    color: white;
+    font-size: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 900px;
+  
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author {
+    
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 0 35%;
+}
+
+.section-four {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-container {
+    background-color: #3882F6;
+    width: 60%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-four-left-side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.section-four-title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-four-text {
+    color: white;
+    font-size: 16px;
+}
+
+.sign-up-button-style-two {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px;
+    transition: 0.8s ease;
+}
+
+.sign-up-button-style-two:hover {
+    background-color: #003d9e;
+    color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 14px;
+}
